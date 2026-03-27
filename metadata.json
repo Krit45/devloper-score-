@@ -1,0 +1,5 @@
+{
+  "name": "DevScore - Portfolio Analyzer",
+  "description": "Analyze GitHub profiles to generate portfolio strength scores, language insights, and AI-powered improvement suggestions.",
+  "requestFramePermissions": []
+}
