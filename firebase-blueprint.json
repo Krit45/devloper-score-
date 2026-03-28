@@ -1,0 +1,43 @@
+{
+  "entities": {
+    "Report": {
+      "title": "Report",
+      "description": "A saved GitHub analysis report.",
+      "type": "object",
+      "properties": {
+        "userId": {
+          "type": "string",
+          "description": "The UID of the user who saved the report."
+        },
+        "username": {
+          "type": "string",
+          "description": "The GitHub username analyzed."
+        },
+        "score": {
+          "type": "number",
+          "description": "The calculated DevScore."
+        },
+        "stats": {
+          "type": "object",
+          "description": "Detailed analysis statistics."
+        },
+        "profile": {
+          "type": "object",
+          "description": "GitHub profile information."
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "When the report was saved."
+        }
+      },
+      "required": ["userId", "username", "score", "stats", "profile", "createdAt"]
+    }
+  },
+  "firestore": {
+    "/reports/{reportId}": {
+      "schema": "Report",
+      "description": "Collection of saved developer reports."
+    }
+  }
+}
