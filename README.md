@@ -1,24 +1,5 @@
  🚀 DevScore -- AI-Powered GitHub Portfolio Analyzer
-
-```{=html}
-<p align="center">
-```
-`<b>`{=html}Turn your GitHub profile into a powerful developer portfolio
-🚀`</b>`{=html}
-```{=html}
-</p>
-```
-```{=html}
-<p align="center">
-```
-`<img src="https://img.shields.io/badge/React-19-blue?style=for-the-badge&logo=react"/>`{=html}
-`<img src="https://img.shields.io/badge/Node.js-Backend-green?style=for-the-badge&logo=node.js"/>`{=html}
-`<img src="https://img.shields.io/badge/AI-Gemini-orange?style=for-the-badge"/>`{=html}
-`<img src="https://img.shields.io/badge/License-MIT-black?style=for-the-badge"/>`{=html}
-```{=html}
-</p>
-```
-
+ 
 ------------------------------------------------------------------------
 
 ## 🌟 Overview
